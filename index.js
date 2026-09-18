@@ -57,13 +57,13 @@ app.use(
   rateLimit({ windowMs: 60 * 1000, max: 30, standardHeaders: true }),
 );
 
-app.use(express.static(path.join(__dirname, "../public")));
+app.use(express.static(path.join(__dirname, "public")));
 
 const PORT = process.env.PORT || 3000;
 const HOST = process.env.HOST || "127.0.0.1";
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "../public/index.html"));
+  res.sendFile(path.join(__dirname, "public/index.html"));
 });
 
 app.post("/generate-text", async (req, res) => {

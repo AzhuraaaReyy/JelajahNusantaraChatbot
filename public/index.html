@@ -1,0 +1,722 @@
+﻿<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jelajah Nusantara - Agen Perjalanan & Konsultan AI</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- ================= NAV BAR ================= -->
+    <header class="navbar">
+      <div class="container navbar__container">
+        <a href="#" class="brand">
+          <span class="brand__icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.7 5.2c.3.4.8.5 1.3.3l.5-.3c.4-.2.6-.6.5-1.1z"
+              />
+            </svg>
+          </span>
+          <span class="brand__text">JELAJAH <strong>NUSANTARA</strong></span>
+        </a>
+
+        <nav class="nav">
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link">Beranda</a></li>
+            <li><a href="#about" class="nav__link">Tentang Kami</a></li>
+            <li><a href="#products" class="nav__link">Paket Wisata</a></li>
+            <li>
+              <a href="#ai-advisor" class="nav__link nav__link--highlight"
+                >Konsultan AI</a
+              >
+            </li>
+            <li><a href="#gallery" class="nav__link">Galeri</a></li>
+            <li><a href="#contact" class="nav__link">Kontak</a></li>
+          </ul>
+        </nav>
+
+        <div class="status-badge">
+          <span class="status-badge__dot"></span>
+          Layanan Aktif
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- ================= HERO SECTION ================= -->
+      <section id="home" class="hero">
+        <div class="hero__overlay"></div>
+        <div class="container hero__container">
+          <span class="badge">Eksplorasi Tanpa Batas</span>
+          <h1 class="hero__title">Nikmati Keindahan Alami Nusantara</h1>
+          <p class="hero__description">
+            Temukan destinasi tersembunyi, itinerary kustom dengan AI, dan
+            pengalaman perjalanan privat dengan kenyamanan terbaik.
+          </p>
+          <div class="hero__actions">
+            <a href="#products" class="btn btn--primary">Cari Paket Wisata</a>
+            <a href="#ai-advisor" class="btn btn--secondary"
+              >Tanya Konsultan AI</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= ABOUT & FEATURES ================= -->
+      <section id="about" class="section section--light">
+        <div class="container">
+          <div class="section-header text-center">
+            <h2 class="section-header__title">Mengapa Memilih Kami</h2>
+            <p class="section-header__subtitle">
+              Layanan perjalanan profesional dengan komitmen penuh pada
+              kenyamanan dan keamanan Anda.
+            </p>
+          </div>
+
+          <div class="grid grid--3">
+            <div class="card-feature">
+              <div class="card-feature__icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="m12 14 4-4" />
+                  <path d="M3.34 19a10 10 0 1 1 17.32 0" />
+                </svg>
+              </div>
+              <h3 class="card-feature__title">Rute & Itinerary Terukur</h3>
+              <p class="card-feature__text">
+                Setiap perjalanan dirancang efisien agar Anda dapat menikmati
+                tiap destinasi tanpa terburu-buru.
+              </p>
+            </div>
+
+            <div class="card-feature">
+              <div class="card-feature__icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                </svg>
+              </div>
+              <h3 class="card-feature__title">Fasilitas Privat Premium</h3>
+              <p class="card-feature__text">
+                Dukungan armada privat, penginapan terpilih, dan pemandu lokal
+                berpengalaman.
+              </p>
+            </div>
+
+            <div class="card-feature">
+              <div class="card-feature__icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
+                  />
+                </svg>
+              </div>
+              <h3 class="card-feature__title">Konsultan AI 24/7</h3>
+              <p class="card-feature__text">
+                Bantuan perencanaan instan dan rekomendasi destinasi kapan saja
+                secara responsif.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= PAKET WISATA ================= -->
+      <section id="products" class="section">
+        <div class="container">
+          <div class="section-header text-center">
+            <span class="section-header__tag">DESTINASI PILIHAN</span>
+            <h2 class="section-header__title">Paket Wisata Populer</h2>
+            <p class="section-header__subtitle">
+              Jelajahi keindahan Indonesia dengan paket perjalanan eksklusif dan
+              fasilitas terbaik.
+            </p>
+          </div>
+
+          <div class="grid grid--3">
+            <!-- Card 1 -->
+            <article class="card-product">
+              <div class="card-product__image-wrapper">
+                <span class="card-product__tag">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  Papua Barat
+                </span>
+                <span class="card-product__rating">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                    />
+                  </svg>
+                  4.9
+                </span>
+                <img
+                  src="https://images.unsplash.com/photo-1516690561799-46d8f74f9abf?q=80&w=800"
+                  alt="Raja Ampat"
+                  loading="lazy"
+                />
+              </div>
+              <div class="card-product__body">
+                <h3 class="card-product__title">Pesona Raja Ampat</h3>
+                <ul class="card-product__specs">
+                  <li>
+                    <svg
+                      class="spec-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <circle cx="12" cy="12" r="10" />
+                      <polyline points="12 6 12 12 16 14" />
+                    </svg>
+                    <span><strong>Durasi:</strong> 5 Hari 4 Malam</span>
+                  </li>
+                  <li>
+                    <svg
+                      class="spec-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <circle cx="12" cy="12" r="10" />
+                      <polygon
+                        points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"
+                      />
+                    </svg>
+                    <span
+                      ><strong>Aktivitas:</strong> Snorkeling, Diving, Island
+                      Hopping</span
+                    >
+                  </li>
+                  <li>
+                    <svg
+                      class="spec-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                    </svg>
+                    <span
+                      ><strong>Fasilitas:</strong> Resort Apung, Speedboat
+                      Privat</span
+                    >
+                  </li>
+                </ul>
+                <div class="card-product__footer">
+                  <div class="card-product__price">
+                    <span class="price-label">Mulai dari</span>
+                    <div class="price-value">
+                      Rp 18.500.000 <span>/ pax</span>
+                    </div>
+                  </div>
+                  <a href="#contact" class="btn btn--primary btn--sm"
+                    >Pesan Paket</a
+                  >
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="card-product">
+              <div class="card-product__image-wrapper">
+                <span class="card-product__tag">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  NTT
+                </span>
+                <span class="card-product__rating">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                    />
+                  </svg>
+                  4.8
+                </span>
+                <img
+                  src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?q=80&w=800"
+                  alt="Labuan Bajo"
+                  loading="lazy"
+                />
+              </div>
+              <div class="card-product__body">
+                <h3 class="card-product__title">Sailing Labuan Bajo</h3>
+                <ul class="card-product__specs">
+                  <li>
+                    <svg
+                      class="spec-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <circle cx="12" cy="12" r="10" />
+                      <polyline points="12 6 12 12 16 14" />
+                    </svg>
+                    <span><strong>Durasi:</strong> 4 Hari 3 Malam</span>
+                  </li>
+                  <li>
+                    <svg
+                      class="spec-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <circle cx="12" cy="12" r="10" />
+                      <polygon
+                        points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"
+                      />
+                    </svg>
+                    <span
+                      ><strong>Aktivitas:</strong> Trekking Padar, Komodo, Pink
+                      Beach</span
+                    >
+                  </li>
+                  <li>
+                    <svg
+                      class="spec-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                    </svg>
+                    <span
+                      ><strong>Fasilitas:</strong> Kapal Phinisi, Kamar AC</span
+                    >
+                  </li>
+                </ul>
+                <div class="card-product__footer">
+                  <div class="card-product__price">
+                    <span class="price-label">Mulai dari</span>
+                    <div class="price-value">
+                      Rp 7.500.000 <span>/ pax</span>
+                    </div>
+                  </div>
+                  <a href="#contact" class="btn btn--primary btn--sm"
+                    >Pesan Paket</a
+                  >
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="card-product">
+              <div class="card-product__image-wrapper">
+                <span class="card-product__tag">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  Bali
+                </span>
+                <span class="card-product__rating">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                    />
+                  </svg>
+                  4.9
+                </span>
+                <img
+                  src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=800"
+                  alt="Bali"
+                  loading="lazy"
+                />
+              </div>
+              <div class="card-product__body">
+                <h3 class="card-product__title">Exotic Bali & Nusa Penida</h3>
+                <ul class="card-product__specs">
+                  <li>
+                    <svg
+                      class="spec-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <circle cx="12" cy="12" r="10" />
+                      <polyline points="12 6 12 12 16 14" />
+                    </svg>
+                    <span><strong>Durasi:</strong> 3 Hari 2 Malam</span>
+                  </li>
+                  <li>
+                    <svg
+                      class="spec-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <circle cx="12" cy="12" r="10" />
+                      <polygon
+                        points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"
+                      />
+                    </svg>
+                    <span
+                      ><strong>Aktivitas:</strong> Kelingking Beach, Tirta
+                      Empul</span
+                    >
+                  </li>
+                  <li>
+                    <svg
+                      class="spec-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                    </svg>
+                    <span
+                      ><strong>Fasilitas:</strong> Hotel Bintang 4, Mobil
+                      Privat</span
+                    >
+                  </li>
+                </ul>
+                <div class="card-product__footer">
+                  <div class="card-product__price">
+                    <span class="price-label">Mulai dari</span>
+                    <div class="price-value">
+                      Rp 3.250.000 <span>/ pax</span>
+                    </div>
+                  </div>
+                  <a href="#contact" class="btn btn--primary btn--sm"
+                    >Pesan Paket</a
+                  >
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= AI TRAVEL ADVISOR ================= -->
+      <section id="ai-advisor" class="section section--light">
+        <div class="container container--narrow">
+          <div class="section-header text-center">
+            <h2 class="section-header__title">Konsultan Perjalanan AI</h2>
+            <p class="section-header__subtitle">
+              Dapatkan rekomendasi destinasi, estimasi anggaran, atau rancangan
+              itinerary kustom secara cepat.
+            </p>
+          </div>
+
+          <div class="chat-wrapper">
+            <div class="chat-wrapper__header">
+              <div class="chat-wrapper__status">
+                <span class="status-dot"></span>
+                Travel Assistant Active
+              </div>
+              <div class="chat-wrapper__header-actions">
+                <span class="chat-wrapper__brand">Jelajah AI v2.4</span>
+                <button
+                  type="button"
+                  id="chat-reset"
+                  class="chat-reset"
+                  title="Mulai ulang percakapan"
+                >
+                  Mulai Ulang
+                </button>
+              </div>
+            </div>
+
+            <div class="chat-box" id="chat-box">
+              
+            </div>
+
+            <div class="chat-wrapper__footer">
+              <form class="chat-form" id="chat-form">
+                <input
+                  type="text"
+                  id="user-input"
+                  class="chat-form__input"
+                  placeholder="Tanyakan rekomendasi tempat atau anggaran..."
+                  aria-label="Tanyakan rekomendasi tempat atau anggaran"
+                  required
+                />
+                <button type="submit" class="btn btn--primary">Kirim</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= GALLERY ================= -->
+      <section id="gallery" class="section">
+        <div class="container">
+          <div class="section-header text-center">
+            <h2 class="section-header__title">Galeri Perjalanan</h2>
+            <p class="section-header__subtitle">
+              Dokumentasi momen berharga para wisatawan Jelajah Nusantara.
+            </p>
+          </div>
+
+          <div class="grid grid--3">
+            <div class="gallery-card">
+              <img
+                src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800"
+                alt="Pantai Indonesia"
+                loading="lazy"
+              />
+              <div class="gallery-card__caption">
+                Keindahan Pesisir Pantai Kuta
+              </div>
+            </div>
+            <div class="gallery-card">
+              <img
+                src="https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?q=80&w=800"
+                alt="Candi Borobudur"
+                loading="lazy"
+              />
+              <div class="gallery-card__caption">
+                Sunrise di Kemegahan Borobudur
+              </div>
+            </div>
+            <div class="gallery-card">
+              <img
+                src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=800"
+                alt="Danau Batur"
+                loading="lazy"
+              />
+              <div class="gallery-card__caption">
+                Pemandangan Alami Danau Batur
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= CONTACT FORM ================= -->
+      <section id="contact" class="section section--light">
+        <div class="container container--narrow">
+          <div class="section-header text-center">
+            <h2 class="section-header__title">Hubungi Kami</h2>
+            <p class="section-header__subtitle">
+              Konsultasikan kebutuhan tur grup, perizinan khusus, atau pemesanan
+              langsung.
+            </p>
+          </div>
+
+          <form class="form-contact" id="form-contact">
+            <div class="form-group">
+              <label class="form-group__label" for="name">Nama Lengkap</label>
+              <input
+                type="text"
+                id="name"
+                class="form-group__input"
+                placeholder="Masukkan nama Anda"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label class="form-group__label" for="email">Alamat Email</label>
+              <input
+                type="email"
+                id="email"
+                class="form-group__input"
+                placeholder="nama@email.com"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label class="form-group__label" for="package"
+                >Paket yang Diminati</label
+              >
+              <input
+                type="text"
+                id="package"
+                class="form-group__input"
+                placeholder="Contoh: Pesona Raja Ampat"
+              />
+            </div>
+
+            <div class="form-group">
+              <label class="form-group__label" for="message"
+                >Pesan / Catatan Khusus</label
+              >
+              <textarea
+                id="message"
+                rows="4"
+                class="form-group__textarea"
+                placeholder="Tuliskan tanggal keberangkatan atau pertanyaan Anda..."
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--full">
+              Kirim Pesan
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__copyright">
+          &copy; 2026 <strong>Jelajah Nusantara</strong>. Seluruh hak cipta
+          dilindungi.
+        </div>
+        <div class="footer__links">
+          <a href="#home">Beranda</a>
+          <a href="#products">Paket Wisata</a>
+          <a href="#ai-advisor">Konsultan AI</a>
+          <a href="#contact">Kontak</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
